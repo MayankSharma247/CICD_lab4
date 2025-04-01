@@ -61,7 +61,7 @@ stages:
 
     - task: AzureFunctionApp@1
       inputs:
-        azureSubscription: 'newpipeline'  # Replace with your Azure service connection name
+        azureSubscription: 'MayankSharma247'  # Replace with your Azure service connection name
         appName: 'MyHttpFunction'             # Replace with your Azure Function App name
         package: '$(System.ArtifactsDirectory)/functionapp.zip'
       displayName: 'Deploy Function to Azure'
